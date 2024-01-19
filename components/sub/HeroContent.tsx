@@ -8,6 +8,11 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
+import {
+  AiOutlineGithub,
+  AiFillLinkedin,
+  AiFillFacebook,
+} from "react-icons/ai";
 
 const HeroContent = () => {
   return (
@@ -29,7 +34,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[500px] w-auto h-auto"
         >
           <span>
             Hi 🙌 I am
@@ -52,11 +57,11 @@ const HeroContent = () => {
           <p>
             This diverse experience has empowered me to consistently deliver
             impactful results, both independently and as part of collaborative
-            teams. Currently pursuing a BSc in Computer Science, I&lsquo;m prepared to
-            apply my academic knowledge and practical skills to make meaningful
-            contributions to the tech industry. Outside the world of coding, I
-            find comfort in literature, often engrossed in the pages of a good
-            book.{" "}
+            teams. Currently pursuing a BSc in Computer Science, I&lsquo;m
+            prepared to apply my academic knowledge and practical skills to make
+            meaningful contributions to the tech industry. Outside the world of
+            coding, I find comfort in literature, often engrossed in the pages
+            of a good book.{" "}
           </p>
           <p>
             Spending quality time with my family and friends is a treasured
@@ -66,9 +71,10 @@ const HeroContent = () => {
             unleash my full potential.
           </p>
         </motion.p>
+
         <motion.div
           variants={slideInFromLeft(1)}
-          className=" border-[#5e557b61] border-[2px] text-center flex justify-between  text-white cursor-pointer rounded-lg max-w-[600px] px-[2px]"
+          className=" border-[#5e557b61] border-[2px] text-center flex justify-between  text-white cursor-pointer rounded-lg max-w-auto px-[2px]"
         >
           <div className="w-full h-full flex flex-row items-center justify-between py-2 px-[20px] ">
             <div className="min-w-[200px] h-auto flex flex-col items-left justify-start">
@@ -94,6 +100,11 @@ const HeroContent = () => {
               </p>
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
                 <span className="text-[15px] ml-[6px]">
+                  Mobile : 076-8628880
+                </span>
+              </p>
+              <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                <span className="text-[15px] ml-[6px]">
                   Languages: Sinhala /English
                 </span>
               </p>
@@ -105,12 +116,29 @@ const HeroContent = () => {
             </div>
           </div>
         </motion.div>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        <motion.div
+          variants={slideInFromTop}
+          className="Welcome-box py-[8px] px-[4px] boarder-[#7042f88b] opacity-[0.9]"
         >
-          Learn More!
-        </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="Welcome-text text-[13px]"
+          >
+            Connect with me!
+          </motion.a>
+        </motion.div>
+        {/* socials */}
+        <motion.div className="text-5xl flex justify-center gap-16 text-start text-white">
+          <a href="https://github.com/chathura9716">
+            <AiOutlineGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/chathura-lakmal-snow97/">
+            <AiFillLinkedin />
+          </a>
+          <a href="https://facebook.com/chathura.lakmalc97/">
+            <AiFillFacebook />
+          </a>
+        </motion.div>
       </div>
 
       <motion.div
@@ -124,8 +152,6 @@ const HeroContent = () => {
           width={650}
         />
       </motion.div>
-      
-
     </motion.div>
   );
 };

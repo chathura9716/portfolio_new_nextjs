@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
@@ -27,6 +28,8 @@ const Footer = () => {
                 </a>
               </span>
             </p>
+
+            
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxDiscordLogo />
               <span className="text-[15px] ml-[6px]">Discord</span>
