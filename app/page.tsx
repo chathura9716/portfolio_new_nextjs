@@ -7,7 +7,7 @@ import WorkExpereinnceMain from "@/components/main/WorkExpereinnceMain";
 export default function Home() {
   return (
     <main className="h-full w-full">
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 ">
         <Hero />
         <WorkExpereinnceMain/>
 
