@@ -20,7 +20,7 @@ const Projects = () => {
         description="hss bjhd djdbjhxd dhjxbdsj dsbxdjx"/>
         <ProjectCard 
         
-        src="/SpaceWebSite.png"
+        src="/SpaceWeb.png"
         title="Next.js protfolio"
         description="hss bjhd djdbjhxd dhjxbdsj dsbxdjx"/>
       </div>
