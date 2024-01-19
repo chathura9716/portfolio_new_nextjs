@@ -13,13 +13,13 @@ const WorkExperience = () => {
           <div className="container max-w-5xl pt-12 mx-auto">
             <div className="grid gap-4 mx-4 sm:grid-cols-12">
               <div className="col-span-12 sm:col-span-3">
-                <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-amber-300">
+                <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-cyan-300">
                   <h3 className="text-2xl font-semibold">My Education</h3>
                 </div>
               </div>
               <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
                 <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700 ml-5">
-                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-amber-300">
+                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-cyan-300">
                     <h3 className="text-xl font-semibold tracki">
                       University of Jaffna{" "}
                     </h3>
@@ -31,7 +31,7 @@ const WorkExperience = () => {
                     </p>
                   </div>
 
-                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-amber-300">
+                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-cyan-300">
                     <h3 className="text-xl font-semibold tracki">
                       Minuwangoda President Collage
                     </h3>
@@ -42,7 +42,7 @@ const WorkExperience = () => {
                       G.C.E. Advanced Level (Maths) Z-Score : 1.2712
                     </p>
                   </div>
-                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-amber-300">
+                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-cyan-300">
                     <h3 className="text-xl font-semibold tracki">
                       Minuwangoda Nalanda (Boys) National School
                     </h3>
@@ -61,13 +61,13 @@ const WorkExperience = () => {
           <div className="container max-w-5xl py-12 mx-auto">
             <div className="grid gap-4 mx-4 sm:grid-cols-12">
               <div className="col-span-12 sm:col-span-3">
-                <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-amber-300">
+                <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-cyan-300">
                   <h3 className="text-2xl font-semibold">My Experience</h3>
                 </div>
               </div>
               <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
                 <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700 ml-5">
-                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-amber-300">
+                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-cyan-300">
                     <h3 className="text-xl font-semibold tracki">
                       EArrow (Pvt) Ltd.
                     </h3>
@@ -85,7 +85,7 @@ const WorkExperience = () => {
                 </div>
 
                 <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700 ml-5">
-                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-amber-300">
+                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-cyan-300">
                     <h3 className="text-xl font-semibold tracki">
                       House of Fashions Mega Mall Borella.
                     </h3>
@@ -101,7 +101,7 @@ const WorkExperience = () => {
                 </div>
 
                 <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700 ml-5">
-                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-amber-300">
+                  <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-cyan-300">
                     <h3 className="text-xl font-semibold tracki">Asombrix.</h3>
                     <time className="text-xs tracki uppercase text-gray-400">
                       Jan 2023 - Present
